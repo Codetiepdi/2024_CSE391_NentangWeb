@@ -1,0 +1,14 @@
+.a {
+  padding-left: 30px;
+  font-weight: bold;
+  border: 0px;
+  display: flex;
+  align-items: center;
+}
+hr {
+  margin-top: 0;
+}
+.a label {
+  flex: 0 0 150px; /* Đặt chiều rộng cố định cho nhãn */
+  margin-right: 10px; /* khoảng cách giữa nhãn và hộp văn bản */
+}
