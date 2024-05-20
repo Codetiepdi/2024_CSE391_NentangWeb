@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
@@ -19,11 +20,45 @@
                 <button class="">Tìm</button>
             </div>
         </div>
-        <div class="header-1">
-            <div>
-                <h3>Quản lý Nhân viên</h3>
-            </div>
+    
+    <div class="header-1">
+        <div>
+            <h2>Quản lý Nhân viên</h2>
         </div>
+        
+        <div class="button-1">
+            <button class="delete">
+                <i class="fa-solid fa-circle-minus" style="color: #ffffff;"></i>
+                Xóa
+            </button>
+            <button class="add" >
+                <i class="fa-solid fa-circle-plus" style="color: #ffffff;"></i>
+                Thêm nhân viên
+            </button>
+        </div>
+
     </div>
+    <table>
+        <tr>
+            <th>Họ và tên</th>
+            <th>Thư điện tử</th>
+            <th>Địa chỉ</th>
+            <th>Số điện thoại</th>
+            <th>Hành động</th>
+        </tr>
+        <tr>
+            <input type="checkbox">
+            <td>Nguyễn Văn A</td>
+            <td>nguyenvana@example.com</td>
+            <td>Hà Nội, Việt Nam</td>
+            <td>0123456789</td>
+            <td>
+                <button class="edit-btn">✏️</button>
+                <button class="delete-btn">🗑️</button>
+            </td>
+        </tr>
+        <!-- Thêm các hàng khác tương tự -->
+    </table>
+    
 </body>
 </html>
