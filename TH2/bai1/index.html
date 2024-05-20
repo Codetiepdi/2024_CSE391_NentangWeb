@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script>
+      $(function () {
+        $("button").click(function () {
+          $("#box").html(
+            "<h3>New Title</h3><div>New content goes here. This is the updated content.</div>"
+          );
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div id="box">
+      <h3>Title</h3>
+      <div>In suscipit nec velit sit amet convallis. Integer</div>
+    </div>
+    <button type="button">Click</button>
+  </body>
+</html>
