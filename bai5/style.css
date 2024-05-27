@@ -10,7 +10,8 @@ justify-content: space-between;
     justify-content:space-between;
     background-color:rgb(24, 24, 123) ;
     margin-top: 20px;
-    border-radius: 10px;
+    
+    
 }
 .header-1 .button-1{
     justify-content: center;
@@ -27,5 +28,17 @@ justify-content: space-between;
 }
 h2{
     color: white;
+}
+
+table {
+    width: 100%;
+}
+th, td {
+    text-align: left; /* Căn trái nội dung */
+    padding-top: 40px;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
 }
 
